@@ -1,0 +1,103 @@
+body,html
+{
+	margin:0;
+	padding:10px;
+	color:#000;
+	background:#ECECEC;
+}
+
+#wrap
+{
+	width:1000px;
+	margin:0 auto;
+	background:#99c;
+}
+
+#header
+{
+	background:#ddd;
+	padding:5px 10px;
+	text-align:center;
+	color:#E74C3C;
+}
+#nav
+{
+	background:#65c6bb;
+	padding:5px 10px;
+}
+
+#main
+{
+	background:#e08283;       /*NY Pink*/
+	float:left;
+	width:700px;
+	height:490px;
+}
+#footer
+{
+	background:#87D37C;  /*Gossip*/
+	clear:both;
+	padding:5px 10px;
+	text-align:center;
+}
+
+fieldset { 
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+	border-radius:10px;
+	width:400px;
+}
+#nav a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+#nav a:hover
+{
+	border:2px solid;
+	border-radius:10px;
+	padding:10px 10px 10px 10px;
+	background-color:#1BA39C;
+	color:#FFF;
+}
+
+table{
+	border:1px solid red;
+	
+}
+input[type="submit"]
+{
+	border:1px solid;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-top-left-radius:20px;
+	padding:10px 20px 10px 20px;
+	margin-right:50px;
+	width:60px;
+	
+}
+legend
+{
+	margin-left:10px;
+	font-size:20px;
+}
+
+input[type="submit"]:hover
+{	
+	color:#95A5A6;
+}
+#footer
+{
+	background:#87D37C;  /*Gossip*/
+	clear:both;
+	padding:5px 10px;
+	text-align:center;
+}

@@ -1,0 +1,73 @@
+#nav a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+#nav a:hover
+{
+	border:1px solid;
+	border-radius:5px;
+	padding:5px 5px 5px 5px;
+	background-color:#1BA39C;
+	color:#FFF;
+}
+#footer
+{
+	background:#87D37C;  /*Gossip*/
+	clear:both;
+	padding:5px 10px;
+	text-align:center;
+}
+body,html
+{
+	margin:0;
+	padding:10px;
+	color:#000;
+	background:#ECECEC;
+}
+
+#wrap
+{
+	width:1000px;
+	margin:0 auto;
+	background:#99c;
+}
+
+#header
+{
+	background:#ddd;
+	padding:5px 10px;
+	text-align:center;
+	color:#E74C3C;
+}
+#nav
+{
+	background:#65c6bb;
+	padding:5px 10px;
+}
+
+#main
+{
+	background:#e08283;       /*NY Pink*/
+	float:left;
+	width:700px;
+	height:490px;
+}
+input[type="submit"]
+{
+	border:1px solid;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-top-left-radius:10px;
+	padding:10px 20px 10px 10px;
+	margin-right:40px;
+	width:50px;
+	
+}
+
+input[type="submit"]:hover
+{	
+	color:#95A5A6;
+}
